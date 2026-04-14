@@ -1,3 +1,9 @@
+/*---------------------Header---------------------*/
+.logo a{
+    display: flex;
+    /*align-items: left;*/
+}
+/*---------------------Bare de Navigation---------------------*/
 .navbar {
     position: sticky; /* Reste en haut lors du défilement */
     top: 0;
@@ -10,11 +16,6 @@
     border-bottom: 1px solid rgba(0, 200, 255, 0.15);
     backdrop-filter: blur(10px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-}
-
-.logo a{
-    display: flex;
-    align-items: left;
 }
 
 .logo {
@@ -55,4 +56,9 @@
 
 .nav-links li a:hover img {
     transform: scale(1.1); 
+}
+
+
+header, body, footer{
+    font-family: "Roboto Light", sans-serif;
 }
