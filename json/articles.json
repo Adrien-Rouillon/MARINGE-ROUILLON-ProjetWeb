@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "titre": "Article 1",
+    "image": "../image/imagetest.jpeg",
+    "date": "32/04/2026",
+    "texte": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, quaerat."
+  },
+  {
+    "id": 2,
+    "titre": "Article 2",
+    "image": "../image/imagetest.jpeg",
+    "date": "32/04/2026",
+    "texte": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, quaerat."
+  },
+  {
+    "id": 3,
+    "titre": "Article 3",
+    "image": "../image/imagetest.jpeg",
+    "date": "32/04/2026",
+    "texte": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, quaerat."
+  },
+  {
+    "id": 4,
+    "titre": "Article 4",
+    "image": "../image/imagetest.jpeg",
+    "date": "32/04/2026",
+    "texte": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, quaerat."
+  }
+]

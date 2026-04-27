@@ -5,22 +5,44 @@
     <title>Departement Informatique - Nos Articles</title>
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/article.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <script src="../javascript/ouvrire-boite.js"></script>
 </head>
 
 <body>
+
 <header>
     <a href="accueil.html"><img src="../image/logo.png" alt="logo"></a>
-    <button class="equipe" onclick="">L'équipe</button>
-    <button class="nosArticles" onclick="">Nos Articles</button>
-    <button class="aPropos" onclick="">A propos</button>
+    <div class="boutonRecherche">
+        <button class="vieEtudiante" onclick="">Vie Étudiante</button>
+        <button class="equipe" onclick="">L'équipe</button>
+        <button class="formations" onclick="">Formations</button>
+        <button class="contact" onclick="">Contact</button>
+    </div>
 </header>
+
+<span class="bar"></span>
 
 <section>
     <img src="../image/accueilarticle.jpg" alt="Image d'accueil" id="ImageAccueilArticle">
 </section>
 
 <section>
-    <div class="divArticle">
+
+    <div id="boiteArticle">
+        <div id="contenuArticle">
+            <div id="p1" style="display: flex; justify-content: space-between;">
+                <h2 id="articleTitre"></h2>
+                <button id="fermeBoite" onclick="document.getElementById('boiteArticle').style.display = 'none';">
+                    &times;</button>
+            </div>
+            <p id="articleDate"></p>
+            <img id="articleImage" src="" alt="">
+            <p id="articleTexte"></p>
+        </div>
+    </div>
+
+    <div class="divArticle" onclick="ouvrir_boite(0)">
         <img src="../image/imagetest.jpeg" alt="Image Article 1" class="imgArticle">
         <div class="textArticle" onclick="">
             <h2>Article 1</h2>
@@ -28,7 +50,7 @@
         </div>
     </div>
 
-    <div class="divArticle">
+    <div class="divArticle" onclick="ouvrir_boite(1)">
         <img src="../image/imagetest.jpeg" alt="Image Article 2" class="imgArticle">
         <div class="textArticle" onclick="">
             <h2>Article 2</h2>
@@ -36,7 +58,7 @@
         </div>
     </div>
 
-    <div class="divArticle">
+    <div class="divArticle" onclick="ouvrir_boite(2)">
         <img src="../image/imagetest.jpeg" alt="Image Article 3" class="imgArticle">
         <div class="textArticle" onclick="">
             <h2>Article 3</h2>

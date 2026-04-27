@@ -1,0 +1,36 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+header img{
+    width: 192px;
+    height: auto;
+    margin-top: 10px;
+}
+
+header button{
+    background-color: #163767;
+    border : #163767;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 30px;
+    font-size: 22px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 0.5px;
+    background: #163767;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
