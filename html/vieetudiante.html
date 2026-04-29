@@ -2,11 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Departement Informatique - Nos Articles</title>
+    <title>Departement Informatique - Vie Étudiante</title>
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/article.css">
     <link rel="stylesheet" href="../css/header.css">
-    <script src="../javascript/ouvrire-boite.js"></script>
 </head>
 
 <body>
@@ -27,7 +26,7 @@
     <img src="../image/accueilarticle.jpg" alt="Image d'accueil" id="ImageAccueilArticle">
 </section>
 
-<section>
+<section id="articles">
 
     <div id="boiteArticle">
         <div id="contenuArticle">
@@ -42,35 +41,13 @@
         </div>
     </div>
 
-    <div class="divArticle" onclick="ouvrir_boite(0)">
-        <img src="../image/imagetest.jpeg" alt="Image Article 1" class="imgArticle">
-        <div class="textArticle" onclick="">
-            <h2>Article 1</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, quaerat.</p>
-        </div>
-    </div>
-
-    <div class="divArticle" onclick="ouvrir_boite(1)">
-        <img src="../image/imagetest.jpeg" alt="Image Article 2" class="imgArticle">
-        <div class="textArticle" onclick="">
-            <h2>Article 2</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, quaerat.</p>
-        </div>
-    </div>
-
-    <div class="divArticle" onclick="ouvrir_boite(2)">
-        <img src="../image/imagetest.jpeg" alt="Image Article 3" class="imgArticle">
-        <div class="textArticle" onclick="">
-            <h2>Article 3</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, quaerat.</p>
-        </div>
-    </div>
 </section>
 
 <footer>
 
 </footer>
-
+<script src="../javascript/fctarticle.js"></script>
+<script>genererArticles("../json/articles.json");</script>
 </body>
 </html>
 
