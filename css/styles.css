@@ -62,3 +62,88 @@
 header, body, footer{
     font-family: "Roboto Light", sans-serif;
 }
+
+/*---------------------a-propos---------------------*/
+container {
+    flex: 1; 
+    padding: 40px 0;
+}
+
+/* ---------------------Équipe --------------------- */
+.team-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px; 
+    margin-bottom: 50px;
+    padding: 0 20px;
+}
+
+.member-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+}
+
+.profile-pic {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: -30px; 
+    z-index: 2;
+    background-color: #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-box {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 50px 25px 30px 25px;
+    text-align: left;
+    min-height: 180px;
+    z-index: 1;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.info-box h3 {
+    margin: 0 0 10px 0;
+    color: #133767; 
+    font-size: 1.2rem;
+}
+
+.info-box p {
+    margin: 0;
+    color: #444;
+    line-height: 1.5;
+}
+
+/* -------------------- Projet --------------------- */
+.project-section {
+    background-color: #8D8E8F; /* Ton gris de navbar */
+    margin: 0 10% 40px 10%; /* Marges sur les côtés */
+    padding: 40px;
+    min-height: 150px;
+    color: #ffffff;
+}
+
+.project-section p {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+/* --------------------- Footer --------------------- */
+footer {
+    background-color: #133767; 
+    color: #ffffff;
+    padding: 40px 20px;
+    font-size: 1.2rem;
+}
+
