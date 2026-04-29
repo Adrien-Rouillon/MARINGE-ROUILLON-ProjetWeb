@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Departement Informatique - Accueil</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <script type="text/javascript" src="../javascript/accueil.js"></script>
 </head>
 
 <body>
@@ -23,6 +24,71 @@
         </ul>
     </nav>
 </header>
+<main class="container">
+    <section class="hero-text">
+        <h1>Département Informatique EFREI</h1>
+        <p>Façonner les ingénieurs et experts du numérique de demain.</p>
+    </section>
 
+    <section class="carousel-container">
+        <div class="carousel-slide">
+            <div class="slide">
+            <img src="../Image/image-carrousels/campus-efrei-1.jpg" alt="Campus Villejuif">
+            <div class="carousel-caption">Événements Majeurs 2024</div>
+            </div>
+             <div class="slide">
+            <img src="../Image/image-carrousels/accueilarticle2.jpg" alt="Laboratoire de Recherche">
+            <div class="carousel-caption">Nos Laboratoires de Recherche</div>
+            </div>
+             <div class="slide">
+            <img src="../Image/image-carrousels/accueilarticle1.jpg" alt="Vie Étudiante">
+            <div class="carousel-caption">Vie Étudiante Dynamique</div>
+            </div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </section>
+
+    <section class="home-grid">
+        
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3>98%</h3>
+                <p>Satisfaction Étudiants</p>
+            </div>
+            <div class="stat-card">
+                <h3>500+</h3>
+                <p>Diplômés / an</p>
+            </div>
+            <div class="stat-card">
+                <h3>150</h3>
+                <p>Partenaires Entreprises</p>
+            </div>
+            <div class="stat-card">
+                <h3>95%</h3>
+                <p>taux d'embauche après le diplôme</p>
+            </div>
+        </div>
+
+        <aside class="news-panel">
+            <h2>Actualités & Événements</h2>
+            <ul class="news-list">
+                <li>
+                    <strong>JPO 2026 :</strong> Venez nous rencontrer le 15 mars !
+                </li>
+                <li>
+                    <strong>Remise des diplômes</strong> : Cérémonie le 30 juin
+                </li>
+                <li>
+                    <strong>Nouvauté</strong> L'Efrei inaugure son nouveau site .
+                </li>
+            </ul>
+            <div class="quick-access">
+                <a href="../html/vieetudiante.html" class="btn-small">Voir tout</a>
+            </div>
+        </aside>
+
+    </section>
+</main>
 </body>
 </html>
