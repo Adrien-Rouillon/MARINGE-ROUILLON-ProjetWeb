@@ -1,3 +1,6 @@
+html{
+        background-color: #D9D9D9;
+}
 /*---------------------Header---------------------*/
 .logo a{
     display: flex;
@@ -236,7 +239,6 @@ footer {
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     transition: transform 0.3s;
     border: 2px solid #133767;
-
 }
 
 .stat-card:hover {

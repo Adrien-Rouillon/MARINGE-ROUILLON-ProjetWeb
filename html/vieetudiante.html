@@ -4,50 +4,141 @@
     <meta charset="UTF-8">
     <title>Departement Informatique - Vie Étudiante</title>
     <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/article.css">
+    <link rel="stylesheet" href="../css/boite.css">
     <link rel="stylesheet" href="../css/header.css">
+
 </head>
 
 <body>
 
 <header>
     <a href="accueil.html"><img src="../image/logo.png" alt="logo"></a>
-    <div class="boutonRecherche">
-        <button class="vieEtudiante" onclick="">Vie Étudiante</button>
-        <button class="equipe" onclick="">L'équipe</button>
-        <button class="formations" onclick="">Formations</button>
-        <button class="contact" onclick="">Contact</button>
-    </div>
+    <ul class="boutonRecherche">
+        <li><a href="../html/vieetudiante.html">Vie Étudiante</a></li>
+        <li><a href="../html/equipe.html">L'équipe</a></li>
+        <li><a href="../html/formation.html">Formations</a></li>
+        <li><a href="../html/contact.html">Contact</a></li>
+    </ul>
 </header>
 
 <span class="bar"></span>
 
-<section>
-    <img src="../image/accueilarticle.jpg" alt="Image d'accueil" id="ImageAccueilArticle">
-</section>
+<img src="../image/accueilvieetudiante.jpg" alt="Image d'accueil" class="Imagelongue">
 
-<section id="articles">
+<section id="locaux">
 
-    <div id="boiteArticle">
-        <div id="contenuArticle">
-            <div id="p1" style="display: flex; justify-content: space-between;">
-                <h2 id="articleTitre"></h2>
-                <button id="fermeBoite" onclick="document.getElementById('boiteArticle').style.display = 'none';">
-                    &times;</button>
-            </div>
-            <p id="articleDate"></p>
-            <img id="articleImage" src="" alt="">
-            <p id="articleTexte"></p>
+    <div id="inovlab" class="boite">
+        <div>
+            <h2>Les espaces de fabrication et d’innovation de l’Efrei</h2>
+            <h3>L'Innovation Lab de l'Efrei : un espace au service de la créativité et de l'expérimentation</h3>
+            <p>L'Innovation Lab de l'Efrei est un écosystème complet dédié à la création,
+                à l'expérimentation et au partage des savoirs. Il regroupe deux espaces complémentaires :
+                les FabLabs et le studio Audiovisuel & Réalité Virtuelle,
+                chacun pensé pour répondre aux besoins des étudiants qui collaborent au quotidien.</p>
+            <h3>Des équipements accessibles à tous</h3>
+            <p>Au cœur de l'Innovation Lab se trouvent des machines à commandes numériques:
+                imprimantes 3D, découpeuses laser, ainsi qu'un large panel d'équipements techniques mis à
+                disposition de l'ensemble de la communauté étudiante.
+                L'accès à ces ressources mutualisées permet à chacun, quel que soit son niveau ou
+                sa filière, de concrétiser ses idées et de passer du concept au prototype.</p>
+        </div>
+        <img src="../image/vieetudiante/fablab.jpg" alt="Innovation Lab" class="veImage">
+    </div>
+
+    <div id="coworking" class="boite">
+        <img src="../image/vieetudiante/coworking.jpg" alt="Coworking" class="veImage">
+        <div>
+            <h2>Espace de Coworking</h2>
+            <h3>Les espaces de coworking de l'Efrei : travailler autrement, ensemble</h3>
+            <p> Les campus de l'Efrei ont été pensés pour aller bien au-delà de la salle de cours
+                traditionnelle. Disséminées à travers les bâtiments de Villejuif,
+                de nombreuses zones de coworking sont accessibles à tous les étudiants, à tout moment
+                de la journée, pour répondre à un besoin simple mais fondamental :
+                pouvoir travailler ensemble, dans de bonnes conditions.</p>
+            <h3>Un prolongement naturel des enseignements</h3>
+            <p> Les zones de coworking ne sont pas séparées de la vie pédagogique.
+                Elles en font partie intégrante. C'est souvent là que naissent les meilleures idées,
+                que se forment les équipes de hackathon, que se finalisent les projets de fin d'année.
+            </p>
+            <h3>Un lieu de rencontres et de réseau</h3>
+            <p>Au-delà du travail, ces espaces jouent un rôle social dans la vie du campus.
+                Ils permettent aux étudiants de différentes filières et promotions de se croiser,
+                d'échanger et de collaborer sur des projets communs. Cette mixité est l'une des grandes
+                forces de l'Efrei : elle prépare les étudiants à la réalité du monde professionnel,
+                où la capacité à travailler en équipe dans des environnements ouverts est devenue indispensable.</p>
         </div>
     </div>
+</section>
+
+<section id="club">
+    <div id="clubv2">
+        <div class="texte">
+            <h2>Clubs et Associations</h2>
+            <h3> Rejoignez l'une des nombreuses associations de l'Efrei.</h3>
+            <p> L'école abrite une constellation de clubs et d'associations étudiantes entièrement dédiés aux
+                métiers et aux passions du numérique. Ces structures, animées par les étudiants eux-mêmes,
+                constituent un terrain d'expérimentation unique où la théorie rencontre la pratique dans un
+                cadre libre, stimulant et bienveillant.</p>
+        </div>
+
+        <div id="carrouselClub">
+            <div id="carrouselTrack">
+                <img src="../image/club/Club-Rezo-300x79.jpg" alt="Club-Rezo">
+                <img src="../image/club/CTfrei-150x150.png" alt="CTfrei">
+                <img src="../image/club/Efrei-3D.png" alt="Efrei-3D">
+                <img src="../image/club/Ice-2-300x250.jpg" alt="Ice">
+                <img src="../image/club/One-Pantheon-150x150.png" alt="One-Pantheon">
+                <img src="../image/club/Aero-Efrei.png" alt="Aero-Efrei">
+                <img src="../image/club/EFalcon-150x150.png" alt="EFalcon">
+                <img src="../image/club/4eSport-150x150.png" alt="4eSport">
+                <img src="../image/club/EfreiCraft-150x150.jpg" alt="EfreiCraft">
+                <img src="../image/club/Pandora-300x250.png" alt="Pandora">
+                <img src="../image/club/Toudoum-1-150x150.png" alt="Toudoum">
+            </div>
+        </div>
+    </div>
+
+    <img src="../image/club/Illustration-Efrei-3D-1024x683.jpg" alt="Club" class="veImage">
+
+</section>
+
+<section id="projet">
+    <div class="texte">
+        <h2>Projets</h2>
+        <p>
+            À l'Efrei, les projets sont le reflet d'une pédagogie tournée vers la pratique,
+            l'innovation et la créativité.
+            Qu'ils soient réalisés dans le cadre des cours, des associations ou d'initiatives personnelles,
+            ces projets témoignent du niveau et de l'ambition des étudiants.
+        </p>
+    </div>
+
+    <img src="../image/vieetudiante/groupeetudiants-1623x1080.jpg" alt="Projet" class="Imagelongue">
+
+    <div class="stats-gridv2">
+        <div class="stat-cardv2">
+            <h3>FARMBIRD</h3>
+            <p>Un projet européen dédié au suivi des oiseaux</p>
+        </div>
+
+        <div class="stat-cardv2">
+            <h3>WaySee</h3>
+            <p>Un GPS pour déficients visuels avec assistant IA intégré </p>
+        </div>
+
+        <div class="stat-cardv2">
+            <h3>AirScope</h3>
+            <p>Une carte qui permet de suivre en direct le taux de pollution dans une agglomeration </p>
+        </div>
+    </div>
+
 
 </section>
 
 <footer>
 
 </footer>
-<script src="../javascript/fctarticle.js"></script>
-<script>genererArticles("../json/articles.json");</script>
+<script type="text/javascript" src="../javascript/javascript.js"></script>
 </body>
 </html>
 

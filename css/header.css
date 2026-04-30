@@ -12,16 +12,27 @@ header img{
     margin-top: 10px;
 }
 
-header button{
+header ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+header li{
     background-color: #163767;
     border : #163767;
     border-radius: 10px;
-    color: white;
     padding: 5px 10px;
     margin-right: 30px;
-    font-size: 22px;
     width: 150px;
     cursor: pointer;
+    text-align: center;
+}
+
+li a{
+    font-size:22px;
+    color: white;
+    text-decoration: none;
 }
 
 .bar {

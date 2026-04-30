@@ -2,7 +2,7 @@
   {
     "id": 0,
     "titre": "Remise des diplômes : 1 000 étudiants fêtés au Zénith de Paris",
-    "image": "../image/article_diplomes.jpg",
+    "image": "../image/article/article_diplomes.jpg",
     "date": "02/04/2026",
     "texte": [
       "Une grande cérémonie s'est tenue au Zénith de Paris pour célébrer la promotion 2026 de l'Efrei.",
@@ -13,7 +13,7 @@
   {
     "id": 1,
     "titre": "Stalk saison 3 à l'Efrei : fiction, hacking et responsabilité numérique",
-    "image": "../image/article_stalk.png",
+    "image": "../image/article/article_stalk.png",
     "date": "06/02/2026",
     "texte": [
       "La série Stalk revient pour une troisième saison tournée en partie dans les locaux de l'Efrei, mettant en scène des étudiants confrontés à des enjeux de cybersécurité et d'éthique numérique.",
@@ -24,7 +24,7 @@
   {
     "id": 2,
     "titre": "Un chai bordelais se transforme en campus d'ingénieurs",
-    "image": "../image/article_bordeaux.jpg",
+    "image": "../image/article/article_bordeaux.jpg",
     "date": "04/02/2026",
     "texte": [
       "L'Efrei franchit une nouvelle étape dans son développement avec la transformation d'un ancien chai bordelais en campus moderne dédié aux ingénieurs et experts du numérique.",
