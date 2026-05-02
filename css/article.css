@@ -1,6 +1,4 @@
-
-
-#boiteArticle{
+#boiteArticle, #boiteProfesseur{
     display: none;
     position: fixed;
     z-index: 1000;
@@ -14,7 +12,7 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-#contenuArticle{
+#contenu{
     background-color: #D9D9D9;
     padding: 30px;
     width: 60%;
@@ -26,7 +24,7 @@
     border-radius: 20px;
 }
 
-#articleImage{
+#image{
     display: block;
     width: 100vh;
     height: auto;
@@ -42,12 +40,30 @@
     margin: 20px;
 }
 
-.divArticle:hover{
-    border: 2px solid #147abe;
-}
-
 .imgArticle{
     width: 200px;
     height: auto;
     padding: 10px;
+}
+
+.divProfesseur{
+    border: 2px solid #163767;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#boiteProfesseur img{
+    width: 200px;
+    height: auto;
+}
+
+.divArticle:hover, .divProfesseur:hover{
+     border: 2px solid #147abe;
+ }
+
+#professeurs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }

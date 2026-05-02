@@ -2,18 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Departement Informatique - Equipe</title>
+    <title>Departement Informatique - Vie Étudiante</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/article.css">
+
 </head>
 
 <body>
+
 <header>
-    <a href="../html/accueil.html"><img src="../image/logo.png" alt="logo"></a>
-
-    <button class="equipe" onclick="">L'équipe</button>
-    <button class="nosArticles" onclick="">Nos Articles</button>
-    <button class="aPropos" onclick="">A propos</button>
-
+    <a href="accueil.html"><img src="../image/logo.png" alt="logo"></a>
+    <ul class="boutonRecherche">
+        <li><a href="../html/vieetudiante.html">Vie Étudiante</a></li>
+        <li><a href="../html/equipe.html">L'équipe</a></li>
+        <li><a href="../html/contact.html">Contact</a></li>
+    </ul>
 </header>
+
+<span class="bar"></span>
+
+<img src="../image/equipe/profencoursefrei-1623x1080.jpg" alt="Image d'accueil" class="Imagelongue">
+
+<section id="professeurs">
+    <div id="boiteProfesseur">
+        <div id="contenu">
+            <div id="p1" style="display: flex; justify-content: space-between;">
+                <h2 id="nom"></h2>
+                <button id="fermeBoite" onclick="document.getElementById('boiteProfesseur').style.display = 'none';">
+                    &times;</button>
+            </div>
+            <p id="role"></p>
+            <img id="image" src="" alt="">
+            <p id="biographie"></p>
+
+            <p id="articleTexte"></p>
+        </div>
+    </div>
+</section>
+
+<script src="../javascript/fctarticle.js"></script>
+<script>genererBoites("../json/professeur.json");</script>
+
 </body>
 </html>

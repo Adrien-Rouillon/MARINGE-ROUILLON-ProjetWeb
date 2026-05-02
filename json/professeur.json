@@ -1,0 +1,354 @@
+[
+  {
+    "id": 0,
+    "nom": "Ait El Mahjoub",
+    "prenom": "Youssef",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/2301_-Youssef-AIT-EL-MAHJOUB.jpg",
+    "role": "Enseignant-chercheur / Responsable de la filière IT",
+    "bio": "Diplômé d'un Master en Informatique, Algorithmique et Modélisation (UVSQ) en 2016, il soutient sa thèse en 2021 et rejoint l'Efrei en 2022. Il est rattaché à l'axe de recherche Réseaux de Communication."
+  },
+  {
+    "id": 1,
+    "nom": "Ben Khelil",
+    "prenom": "Cherifa",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/3048-Cherifa-BEN-KHELIL-819x1024.jpg",
+    "role": "Enseignante-chercheuse en informatique",
+    "bio": "Cherifa a obtenu son doctorat en 2019 en cotutelle entre l'École Nationale des Sciences de l'Informatique de la Manouba (Tunisie) et l'Université d'Orléans (France). Elle rejoint l'Efrei en 2024."
+  },
+  {
+    "id": 2,
+    "nom": "Barros Pereira",
+    "prenom": "Marciel",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/Doc-Marciel-BARROS-PEREIRA-819x1024.jpg",
+    "role": "Doctorant / Axe de recherche Réseaux de communication",
+    "bio": "Marciel Barros Pereira est doctorant de l'axe de recherche Réseaux de communication à l'Efrei Research Lab."
+  },
+  {
+    "id": 3,
+    "nom": "Benkermi",
+    "prenom": "Imène",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/12/BENKERMI-Imene--819x1024.jpg",
+    "role": "Enseignante",
+    "bio": "Imène a obtenu son Doctorat à l'université de Rennes 1 en 2007, en menant des recherches sur l'ordonnancement dans les Systèmes Temps Réel. Elle rejoint l'Efrei après une expérience significative dans l'industrie."
+  },
+  {
+    "id": 4,
+    "nom": "Baschenis",
+    "prenom": "Félix",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/12/Felix-Baschenis-1024x701.png",
+    "role": "Enseignant",
+    "bio": "Passionné par l'interface entre mathématiques et informatique, Félix obtient l'agrégation en 2013 après un double-cursus à l'ENS de Cachan. Après une thèse en calculabilité-logique, il rejoint le département de mathématiques de l'Efrei en 2024."
+  },
+  {
+    "id": 6,
+    "nom": "Bianca",
+    "prenom": "Carlo",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/2570_CARLO-BIANCA--819x1024.jpg",
+    "role": "Enseignant-chercheur en mathématiques",
+    "bio": "Docteur en Mathématiques pour les Sciences de l'Ingénieur de l'École Polytechnique de Turin (2008), il obtient le prix INDAM-SIMAI pour la meilleure thèse de doctorat en Italie (2007-2009) et son HDR de l'Université Pierre et Marie Curie en 2015. Il rejoint l'Efrei en 2023."
+  },
+  {
+    "id": 7,
+    "nom": "Benmerzouk",
+    "prenom": "Djamila",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/12/BENMERZOUK-Djamila.png",
+    "role": "Enseignante",
+    "bio": "Maître de conférences qualifiée (section 26 – Mathématiques appliquées), titulaire d'un doctorat d'État en mathématiques portant sur l'étude des systèmes de contrôle non linéaires, soutenu à l'Université de Tlemcen (Algérie)."
+  },
+  {
+    "id": 8,
+    "nom": "Gabis",
+    "prenom": "Asma",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/Gabis-Asma-683x1024.jpg",
+    "role": "Enseignante-chercheuse / Responsable du département informatique",
+    "bio": "Diplômée ingénieure d'État en informatique (ESI, 2006), elle obtient son Magistère en 2010 puis son doctorat en 2021. Elle rejoint l'Efrei en 2022 et assure la responsabilité du département informatique."
+  },
+  {
+    "id": 9,
+    "nom": "Chaieb-chakchouk",
+    "prenom": "Faten",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/chakchouk_faten-683x1024.jpg",
+    "role": "Professeure / Responsable de la majeure Image et Réalité Virtuelle / HDR",
+    "bio": "Diplômée ingénieure en informatique (ENSI, 1998), elle obtient son doctorat en 2009 et son habilitation universitaire en 2016, reconnue HDR par l'Université Paris Panthéon-Assas en 2022. Elle a rejoint l'Efrei en 2020."
+  },
+  {
+    "id": 10,
+    "nom": "Bou Nader",
+    "prenom": "Ralph",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/10/Ralph-BOU-NADER-1024x1024.jpg",
+    "role": "Enseignant-chercheur / Responsable de la majeure Data Engineering",
+    "bio": "Diplômé en ingénierie informatique (USEK, 2018), il obtient son doctorat à l'Institut Polytechnique de Paris en 2024, avec une thèse sur la gestion des courriels par les processus métier. Il rejoint l'Efrei en 2024."
+  },
+  {
+    "id": 12,
+    "nom": "Augustin",
+    "prenom": "Jacques",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/12/jacques-augustin.jpg",
+    "role": "Enseignant / Directeur de la majeure Software Engineering",
+    "bio": "Diplômé de l'UNSA et de Skema, il développe son expertise en delivery de projets IT chez Accenture. Il enseigne à l'Efrei depuis 2010, introduit les cours de DevOps en 2017 et prend la direction de la majeure Software Engineering en 2019."
+  },
+  {
+    "id": 13,
+    "nom": "Charrad",
+    "prenom": "Malika",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/DSC03693_Charrad-683x1024.jpg",
+    "role": "Enseignante-chercheuse / Axe Données et Intelligence Artificielle",
+    "bio": "Diplômée ingénieure de l'ENSI (2003), elle obtient son master de recherche en 2006 et sa thèse en 2010, co-encadrée par le CNAM et l'ENSI. Elle rejoint l'Efrei en 2020."
+  },
+  {
+    "id": 14,
+    "nom": "Charroux",
+    "prenom": "Benoit",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/Benoit-CHARROUX-R3-1-1024x1024.jpg",
+    "role": "Enseignant-chercheur / Responsable des programmes transverses",
+    "bio": "Docteur de l'université Paris XI, ses travaux portent sur le traitement d'images et la reconnaissance de formes. Il rejoint l'Efrei en 2011 et est rattaché à l'axe Sécurité, Résilience et Confiance Numérique."
+  },
+  {
+    "id": 15,
+    "nom": "Dilmi",
+    "prenom": "Djallel",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/2753-Djallel-Dilmi-1-819x1024.jpg",
+    "role": "Enseignant-chercheur / Responsable de la majeure Big Data & Machine Learning",
+    "bio": "Enseignant-chercheur en Deep Learning et intelligence artificielle, spécialisé dans le développement de nouvelles architectures de traitement telles que les mécanismes d'attention. Il rejoint l'Efrei en 2023."
+  },
+  {
+    "id": 16,
+    "nom": "Flasque",
+    "prenom": "Nicolas",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/12/Flasque-Nicolas.jpg",
+    "role": "Enseignant – Ingénieur Pédagogique",
+    "bio": "Ingénieur et Docteur en informatique, Nicolas enseigne à l'Efrei depuis plus de 20 ans. Passionné de programmation en Python et C, il intervient aussi en mathématiques appliquées et contribue à l'évaluation d'outils numériques pour l'apprentissage."
+  },
+  {
+    "id": 17,
+    "nom": "Harzi",
+    "prenom": "Marwa",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/Harzi-Marwa-683x1024.jpg",
+    "role": "Enseignante-chercheuse / Responsable du parcours Logiciels et Systèmes d'Information",
+    "bio": "Elle a obtenu sa thèse de doctorat en informatique en 2018, en cotutelle entre l'Université d'Artois et l'Institut supérieur de gestion de Tunis. Elle a rejoint l'Efrei en 2021."
+  },
+  {
+    "id": 18,
+    "nom": "Hammoud",
+    "prenom": "Khodor",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/Khodor-Hammoud-819x1024.jpg",
+    "role": "Enseignant-chercheur / Responsable de la majeure Data Engineering",
+    "bio": "Khodor Hammoud a obtenu son doctorat en 2021 à l'Université de Paris-Cité. Il a commencé sa carrière d'enseignant à l'Efrei en février 2020, pendant son doctorat."
+  },
+  {
+    "id": 19,
+    "nom": "Ghassany",
+    "prenom": "Mohamad",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/GHASSANY-Mohamad_2-690x1024.jpg",
+    "role": "Enseignant-chercheur / Responsable de la majeure Data and Artificial Intelligence",
+    "bio": "Titulaire d'un master en Mathématiques Appliquées & Statistiques (Université Grenoble Alpes) et d'un doctorat obtenu en 2013 à l'Université Paris 13. Il rejoint l'Efrei en 2021."
+  },
+  {
+    "id": 20,
+    "nom": "Jenhani",
+    "prenom": "Ilyes",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/10/Photos-staff-9-1024x701.png",
+    "role": "Enseignant-chercheur / Responsable de la majeure Software Engineering",
+    "bio": "Ilyes Jenhani a obtenu son doctorat en Informatique en 2010 dans le cadre d'une thèse en cotutelle entre l'Université d'Artois (France) et l'Université de Tunis (Tunisie). Il a rejoint l'Efrei en 2024."
+  },
+  {
+    "id": 21,
+    "nom": "Huet",
+    "prenom": "Jean-Charles",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/HQ1A3112_jean-charles_huet-683x1024.jpg",
+    "role": "Enseignant-chercheur / Responsable des programmes Logiciels et Systèmes d'Information",
+    "bio": "Docteur de l'université Blaise Pascal, Clermont-Ferrand II (2011). Pendant son doctorat, il a travaillé comme ingénieur hospitalier au CHU de Clermont-Ferrand. Il a rejoint l'Efrei en 2018."
+  },
+  {
+    "id": 22,
+    "nom": "Gomolka",
+    "prenom": "Johannes",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/10/Johannes-Gomolka-1024x1024.jpg",
+    "role": "Enseignant-chercheur / Responsable de la majeure IT for Finance",
+    "bio": "Titulaire d'un doctorat en sciences politiques et informatique de gestion (Université de Potsdam, 2011), il dirige la majeure IT for Finance depuis 2018."
+  },
+  {
+    "id": 23,
+    "nom": "Guifo Fodjo",
+    "prenom": "Yvan",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/3005-Yvan-GUIFO-819x1024.jpg",
+    "role": "Enseignant-chercheur en informatique",
+    "bio": "Yvan a obtenu son doctorat en Informatique en 2023, préparé à la Sorbonne Université au sein de l'équipe MoVe du LIP6, où il a également exercé en tant qu'ATER."
+  },
+  {
+    "id": 24,
+    "nom": "Hamidi",
+    "prenom": "Mohamed",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/3195-Mohamed-Hamidi-819x1024.jpg",
+    "role": "Enseignant-chercheur en informatique",
+    "bio": "Mohamed Hamidi a obtenu son doctorat en 2019 à l'Université Med V de Rabat, spécialisé en sécurité multimédia et vision par ordinateur, en collaboration avec le Laboratoire d'Informatique de Bourgogne et le laboratoire PRISME."
+  },
+  {
+    "id": 25,
+    "nom": "Mai",
+    "prenom": "Daniel",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/10/Photos-staff-12-1024x701.png",
+    "role": "Enseignant-chercheur / Axe Données et Intelligence Artificielle",
+    "bio": "Titulaire d'un master en Ingénierie du Jeu vidéo (Lyon 2) et d'un master en Réalité Virtuelle (Paris-Saclay), il obtient son doctorat à l'Université Paris-Saclay en 2024 avant de rejoindre l'Efrei la même année."
+  },
+  {
+    "id": 26,
+    "nom": "Maddouri",
+    "prenom": "Mondher",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/3192-Mondher-Maddouri-819x1024.jpg",
+    "role": "Enseignant-chercheur / Axe Données & Intelligence Artificielle",
+    "bio": "Mondher Maddouri est enseignant-chercheur rattaché à l'axe de recherche Données & Intelligence Artificielle de l'Efrei Research Lab."
+  },
+  {
+    "id": 27,
+    "nom": "Joseph Mathew",
+    "prenom": "Mano",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/Mano-Joseph_large-660x1024.jpg",
+    "role": "Enseignant-chercheur / Responsable de la majeure Bio-informatique",
+    "bio": "Titulaire d'un doctorat en microbiologie et maladies infectieuses (Aix-Marseille Université, 2013), financé par l'AP-HM et l'OMS. Il a rejoint l'Efrei en 2019."
+  },
+  {
+    "id": 28,
+    "nom": "Mohsen",
+    "prenom": "Zahraa",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/2056-Zahraa-MOHSEN--819x1024.jpg",
+    "role": "Enseignante-chercheuse en mathématiques",
+    "bio": "Zahraa Mohsen a obtenu son doctorat en 2022 à l'Université Paris Cité. Elle rejoint l'Efrei en 2023."
+  },
+  {
+    "id": 29,
+    "nom": "Nahle",
+    "prenom": "Salim",
+    "image": "https://www.efrei.fr/wp-content/uploads/2026/03/image.jpg",
+    "role": "Enseignant-chercheur & Responsable Data & IA",
+    "bio": "Ingénieur en télécommunications (Université Libanaise, 2005), il obtient un Master 2 puis un doctorat à l'Université Pierre et Marie Curie en 2009. Il débute sa carrière comme ATER à l'Université Paris 13."
+  },
+  {
+    "id": 30,
+    "nom": "Pernot",
+    "prenom": "Etienne",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/Etienne-PERNOT-HD-1-1024x1024.jpg",
+    "role": "Directeur recherche et valorisation",
+    "bio": "Ingénieur de l'École Polytechnique et de Télécom Paris, diplômé d'un master en astrophysique et docteur en mathématiques appliquées (Paris-Dauphine). Il rejoint l'Efrei en 2021 et dirige l'Efrei Research Lab."
+  },
+  {
+    "id": 31,
+    "nom": "Rajeh",
+    "prenom": "Stephany",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/2840-Stephany-RAJEH-819x1024.jpg",
+    "role": "Enseignante-chercheuse / Axe Données et Intelligence Artificielle",
+    "bio": "Stephany a obtenu son doctorat en informatique en 2023 à l'Université de Bourgogne, spécialisée en science des réseaux. Elle a ensuite occupé un poste de post-doctorante au LIP6 (Sorbonne Université). Elle a rejoint l'Efrei en 2023."
+  },
+  {
+    "id": 32,
+    "nom": "Rakotonarivo",
+    "prenom": "Rado",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/2-RAKOTONARIVO-Rado-683x1024.jpg",
+    "role": "Enseignant-chercheur en Informatique",
+    "bio": "Titulaire d'un Master en Mathématiques, Informatique et Statistiques (Université d'Antananarivo, 2016), il obtient son doctorat au LIPN de l'Université Sorbonne Paris Nord. Il rejoint l'Efrei en 2022."
+  },
+  {
+    "id": 33,
+    "nom": "Tay",
+    "prenom": "Ahmad",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/3190-Ahmad-Tay-819x1024.jpg",
+    "role": "Enseignant-chercheur / Axe Données & Intelligence Artificielle",
+    "bio": "Il a obtenu son doctorat en 2021 à l'Université de Toulon au sein de l'équipe CDE du laboratoire LIS. Il a ensuite effectué un post-doctorat au laboratoire Lab-STICC avant de rejoindre l'Efrei."
+  },
+  {
+    "id": 34,
+    "nom": "Wegrzyn-Wolska",
+    "prenom": "Katarzyna",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/10/HQ1A9212_katarzyna-757x1024.png",
+    "role": "Professeure / Directrice adjointe de l'Efrei Research Lab / HDR",
+    "bio": "Ingénieure de l'École Polytechnique de Silésie (Pologne, 1987), elle obtient son doctorat à MinesParisTech en 2001 et son HDR à l'Université du Val d'Essonne en 2012. Elle dirige l'axe de recherche Données et Intelligence Artificielle."
+  },
+  {
+    "id": 35,
+    "nom": "Zalamea",
+    "prenom": "Federico",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/Federico-Zalamea-819x1024.jpg",
+    "role": "Enseignant-chercheur / Axe Sécurité, Résilience et Confiance Numérique",
+    "bio": "Titulaire d'un master en Physique Théorique (ENS Ulm, 2010) et d'un doctorat en Philosophie de la Physique (Université Paris Sorbonne, 2016). Il a rejoint l'Efrei en 2018."
+  },
+  {
+    "id": 36,
+    "nom": "Ait Salem",
+    "prenom": "Boussad",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/721_Boussad_AIT-SALEM-683x1024.jpg",
+    "role": "Enseignant-chercheur / Responsable de la majeure Cybersécurité et cloud",
+    "bio": "Docteur de l'Université de Limoges (2011), spécialisé en cryptographie. Il effectue un postdoctorat à Orange Labs avant de rejoindre l'Efrei en 2020, où il est responsable du pôle Sécurité, Réseaux et Systèmes Embarqués."
+  },
+  {
+    "id": 37,
+    "nom": "Agueh",
+    "prenom": "Max",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/AGUEH-MAX-819x1024.jpg",
+    "role": "Responsable du Pôle Sécurité, Réseaux, Systèmes Embarqués",
+    "bio": "Titulaire d'un Doctorat en Électronique (Université de Nantes, 2008) et d'un diplôme d'ingénieur en Systèmes Électroniques, complété par un Master en Gestion de l'IAE de Paris (2011). Il intègre l'Efrei en 2020."
+  },
+  {
+    "id": 38,
+    "nom": "Ameur",
+    "prenom": "Yulliwas",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/2728-Yulliwas-Ameur-819x1024.jpg",
+    "role": "Enseignant-chercheur / Axe Sécurité, Résilience et Confiance Numérique",
+    "bio": "Il a soutenu sa thèse de doctorat au CNAM, portant sur le chiffrement homomorphe et l'apprentissage automatique. Il a également exercé comme ATER à l'Université Paris Panthéon-Assas avant de rejoindre l'Efrei en 2024."
+  },
+  {
+    "id": 39,
+    "nom": "Bouakkaz",
+    "prenom": "Fériel",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/Feriel-Bouakkaz-819x1024.jpg",
+    "role": "Enseignante-chercheuse / Axe Sécurité, Résilience et Confiance Numérique",
+    "bio": "Spécialisée en réseaux et sécurité informatique, elle obtient son doctorat en 2016 avec une thèse sur l'agrégation de données sécurisée dans les réseaux de capteurs sans fil. Elle rejoint l'Efrei en 2019."
+  },
+  {
+    "id": 40,
+    "nom": "Bougeroua",
+    "prenom": "Lamine",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/Lamine-BOUGUEROUA-2-1024x1024.jpg",
+    "role": "Enseignant-chercheur / Axe Données et Intelligence Artificielle",
+    "bio": "Diplômé ingénieur en informatique (1998), il obtient un Master Spécialisé en bases de données (Versailles, 2001) puis son doctorat à l'Université Paris-EST Créteil (2007). Il rejoint l'Esigetel en 2006, devenu l'Efrei après la fusion de 2016."
+  },
+  {
+    "id": 41,
+    "nom": "Neggaz",
+    "prenom": "Yessin",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/HQ1A8673_Neggaz-710x1024.jpg",
+    "role": "Enseignant-chercheur / Responsable de la majeure Networks & Cloud Infrastructure",
+    "bio": "Yessin Neggaz a obtenu son doctorat en informatique à l'Université de Bordeaux en octobre 2016. Il a ensuite occupé plusieurs postes d'enseignement et de recherche avant de rejoindre l'Efrei en 2018."
+  },
+  {
+    "id": 42,
+    "nom": "Sliman",
+    "prenom": "Layth",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/Layth-Sliman-2-1-1024x1024.jpg",
+    "role": "Professeur / Responsable de l'axe Sécurité, Résilience et Confiance Numérique / HDR",
+    "bio": "Ingénieur diplômé de l'INSA Lyon, docteur de l'INSA Lyon en collaboration avec l'Université des Ryukyus (Japon), il obtient son HDR à l'Université Paris-Saclay avant de rejoindre l'Efrei en 2010."
+  },
+  {
+    "id": 43,
+    "nom": "Vieira",
+    "prenom": "Dario",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/Dario-VIEIRA-1-1024x1024.jpg",
+    "role": "Professeur associé / Responsable de l'axe Réseaux de Communication / Référent Science Ouverte",
+    "bio": "Ingénieur en informatique (Université fédérale de Viçosa, Brésil), titulaire d'un M.S. (UNICAMP, Brésil) et d'un doctorat en réseaux informatiques de Télécom & Management SudParis. Il a rejoint l'Efrei en 2010."
+  },
+  {
+    "id": 44,
+    "nom": "Yousfi",
+    "prenom": "Souheib",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/3068-Souheib-Yousfi-819x1024.jpg",
+    "role": "Enseignant-chercheur / Axe Sécurité, Résilience et Confiance Numérique",
+    "bio": "Diplômé de l'ENIT (Tunis, 2011), il obtient sa thèse au laboratoire LIP2 sur la conception de protocoles de vote électronique. Il a rejoint l'Efrei en 2024."
+  },
+  {
+    "id": 45,
+    "nom": "Kmimech",
+    "prenom": "Mourad",
+    "image": "https://www.efrei.fr/wp-content/uploads/2025/09/655-Mourad-Kmimech-683x1024.jpg",
+    "role": "Enseignant-chercheur en informatique",
+    "bio": "Titulaire d'un DEA de l'école d'ingénieurs de Sfax (2003), il soutient sa thèse en 2010 à l'Université de Pau et des Pays de l'Adour au sein du laboratoire LIUPPA. Il rejoint l'Efrei en 2024."
+  }
+]

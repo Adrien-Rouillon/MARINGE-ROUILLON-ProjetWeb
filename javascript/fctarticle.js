@@ -27,6 +27,8 @@ async function genererArticles(link) {
     }
 }
 
+///////////////////////////////////////////////////////////////// Verifier dupliqué de p
+
 async function ouvertureBoiteArticle(index, link) {
     const data = await getData(link);
     const article = data[index];
@@ -35,8 +37,34 @@ async function ouvertureBoiteArticle(index, link) {
         p += `<p>${para}</p>`;
     }
     document.getElementById('articleTitre').textContent = article.titre;
-    document.getElementById('articleImage').src = article.image;
+    document.getElementById('image').src = article.image;
     document.getElementById('articleDate').textContent = article.date;
     document.getElementById('articleTexte').innerHTML = p;
     document.getElementById('boiteArticle').style.display = 'flex';
+}
+
+async function genererBoites(link) {
+    const data = await getData(link);
+    const articles = document.getElementById('professeurs');
+    for (let i = 0; i < data.length; i++) {
+        let personne = data[i];
+        articles.innerHTML +=
+            `<div class="divProfesseur" onclick="ouvertureBoite(${i}, '${link}')">
+                <img src= "${personne.image}" alt="Photo de ${personne.nom}" class="imgArticle" onerror="this.src='../image/imagetest.jpeg'">
+                <div onclick="">
+                    <h2>${personne.nom} ${personne.prenom}</h2>
+                </div>
+            </div>`;
+    }
+}
+
+async function ouvertureBoite(index, link) {
+    const data = await getData(link);
+    const personne = data[index];
+    document.getElementById('nom').textContent = personne.nom + " " + personne.prenom;
+    document.getElementById('image').src = '../image/imagetest.jpeg';
+    document.getElementById('image').onerror = "this.src='../image/imagetest.jpeg'";
+    document.getElementById('role').textContent = personne.role;
+    document.getElementById('biographie').textContent = personne.bio;
+    document.getElementById('boiteProfesseur').style.display = 'flex';
 }
