@@ -1,10 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Département Informatique</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/header.css">
 </head>
 <body>
+    <header>
+        <a href="accueil.html"><img src="../image/logo.png" alt="logo"></a>
+        <ul class="boutonRecherche">
+            <li><a href="../html/vieetudiante.html">Vie Étudiante</a></li>
+            <li><a href="../html/equipe.html">L'équipe</a></li>
+            <li><a href="../html/formation.html">Formations</a></li>
+            <li><a href="../html/contact.html">Contact</a></li>
+        </ul>
+    </header>
 
+    <main class="contact-container">
+        <section class="contact-card">
+            <h1>Contactez-nous</h1>
+            <p>Une question ? Un projet ? Laissez-nous un message.</p>
+            
+            <form id="contact-form" class="contact-form">
+                <div class="input-group">
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="message-text">Message</label>
+                    <textarea id="message-text" placeholder="Comment pouvons-nous vous aider ?" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" id="startBtn">Envoyer le message</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="../javascript/contact.js"></script>
 </body>
 </html>
