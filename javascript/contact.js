@@ -4,11 +4,9 @@ if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
         e.preventDefault(); // On bloque le rechargement immédiat
 
-        // 1. Demander confirmation
         const res = confirm("Etes-vous sûr de vouloir envoyer le message ?");
 
         if (res === true) {
-            // 2. Récupérer les données
             const name = document.querySelector('#name').value;
             const email = document.querySelector('#email').value;
             const message = document.querySelector('#message-text').value;
