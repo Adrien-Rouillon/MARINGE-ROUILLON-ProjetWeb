@@ -18,4 +18,5 @@ Pour y accéder et consulter les données, suivez ces étapes :
   - Une page à-propos avec des information concernant les deux etudiant qui on travaillé sur ce projet. Vous pourrez y accedée en cliquant sur le lien présent dans le footer " A propos de nous "
 
 Les fichier professeur.json a été remplie grace à l'IA.
+
 Lien vers la maquette Figma: https://www.figma.com/design/bqjkLQbtkflBD1sGPeydXZ/Projet-Web?node-id=2-3&t=3l6WvhRx4mbeIOUi-1
